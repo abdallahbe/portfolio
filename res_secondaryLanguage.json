@@ -1,0 +1,116 @@
+{
+    "basic_info": {
+      "description_header": "Bonjour",
+      "description": "👋 Je suis un développeur full-stack passionné et expérimenté, spécialisé dans les technologies Spring Boot, Angular et le développement mobile. Fort d'une solide formation en informatique et d'une passion pour la création de solutions web et mobiles performantes et conviviales, j'ai acquis une expérience significative dans le développement d'applications web modernes et évolutives, ainsi que d'applications mobiles cross-platform.",
+      "section_name": {
+        "about": "À propos de moi",
+        "projects": "Projets",
+        "skills": "Compétences",
+        "experience": "Expérience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Jaytrain",
+        "startDate": "Application web",
+        "description": "Conception et développement d’une application web et mobile dédiée au suivi sportif, permettant aux utilisateurs de participer à des séances d’entraînement, suivre leur progression physique et nutritionnelle, et interagir via une plateforme sociale.",
+
+        "images": [
+          "images/portfolio/animal-shelter/p1.webp",
+          "images/portfolio/animal-shelter/p2.webp"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Impérial",
+        "startDate": "Application web",
+        "description": "Conception et développement d’une application web de jeu de loterie en ligne hautement disponible, sécurisée et intuitive, offrant une expérience interactive de participation à des tirages au sort.",
+
+        "images": [
+          "images/portfolio/photography/p1.webp",
+          "images/portfolio/photography/p2.webp"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Patient",
+        "startDate": "Application mobile",
+        "description": "Conception et développement d’une application mobile innovante dédiée à la gestion de la santé humaine et animale. Cette application permet aux patients de commander facilement leurs médicaments en ligne, de prendre rendez-vous avec un professionnel de santé selon sa spécialité, et de gérer le suivi de leurs consultations. Elle intègre également un module vétérinaire offrant la possibilité de fixer des rendez-vous pour leurs animaux, garantissant ainsi une expérience complète et centralisée pour le bien-être de toute la famille.",
+        "images": [
+          "images/portfolio/adventure/p1.webp",
+          "images/portfolio/adventure/p2.webp"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Smartegy",
+        "title": "Développeur Full Stack",
+        "years": "10.2022 - 10.2025",
+        "mainTech": [
+          "Angular 11/12/14","Spring boot"
+        ],
+        "technologies": [
+          "Spring boot",
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "Angular"
+        ]
+      },
+      {
+        "company": "Groupe adaming",
+        "title": "Développeur Full Stack",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7","Spring boot"
+        ],
+        "technologies": [
+          "Spring boot",
+          "Angular",
+          "docker",
+          "JavaScript"
+        ]
+      }
+    ]
+  }

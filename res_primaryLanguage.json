@@ -1,0 +1,114 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I am a passionate and experienced full-stack developer specialized in Spring Boot, Angular, and mobile development technologies. With a strong background in computer science and a passion for creating high-performance, user-friendly web and mobile solutions, I have gained significant experience in developing modern, scalable web applications and cross-platform mobile applications.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Jaytrain",
+        "startDate": "Web application",
+        "description": "Design and development of a web and mobile application dedicated to sports tracking, allowing users to participate in training sessions, monitor their physical and nutritional progress, and interact through a social platform.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.webp",
+          "images/portfolio/animal-shelter/p2.webp"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Impérial",
+        "startDate": "Web application",
+        "description": "Design and development of a highly available, secure, and intuitive online lottery web application, offering an interactive experience for participating in draws.",
+        "images": [
+          "images/portfolio/photography/p1.webp",
+          "images/portfolio/photography/p2.webp"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Patient",
+        "startDate": "Mobile application",
+        "description": "Design and development of an innovative mobile application dedicated to managing both human and animal healthcare. The app enables patients to conveniently order medications online, schedule appointments with healthcare professionals by specialty, and manage their medical follow-ups. It also includes a veterinary module allowing users to book appointments for their pets, providing a complete and centralized experience for the well-being of the whole family.",
+        "images": [
+          "images/portfolio/adventure/p1.webp",
+          "images/portfolio/adventure/p2.webp"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Smartegy",
+        "title": "Full stack Developer",
+        "years": "10.2022 - 10.2025",
+        "mainTech": [
+          "Angular 11/12/14","Spring boot"
+        ],
+        "technologies": [
+          "Spring boot",
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "Angular"
+        ]
+      },
+      {
+        "company": "Adaming Group",
+        "title": "Full stack Developer",
+        "years": "01.2019 - 09.2019",
+        "mainTech": [
+          "Angular 7","Spring boot"
+        ],
+        "technologies": [
+          "Spring boot",
+          "Angular",
+          "docker",
+          "JavaScript"
+        ]
+      }
+    ]
+  }
