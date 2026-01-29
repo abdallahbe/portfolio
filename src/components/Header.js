@@ -29,6 +29,7 @@ class Header extends Component {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
+    // ghhghghghghgftuuuuuuuuuuuuuuuuuuuuudxg
 
     const HeaderTitleTypeAnimation = React.memo( () => {
       return <Typical className="title-styles" steps={this.titles} loop={50} />
