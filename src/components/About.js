@@ -43,7 +43,7 @@ class About extends Component {
       var about = this.props.resumeBasicInfo.description;
     }
 
-    const { isDownloading, downloadCount } = this.state;
+    
 
     return (
       <section id="about">
