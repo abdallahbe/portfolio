@@ -1,6 +1,6 @@
 {
   "name": "react-frontend-dev-portfolio",
-  "homepage": "https://mohamedms-1.github.io/portfolio",
+  "homepage": "https://abdallahbe.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,12 +20,15 @@
     "react-vertical-timeline-component": "^3.3.1"
   },
   "scripts": {
-    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+
+
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://github.com/MohamedMS-1/portfolio.git --branch portfolio-deploy --no-history"
+    "deploy": "gh-pages -d build --repo https://github.com/abdallahbe/portfolio.git --branch portfolio-deploy --no-history"
   },
   "eslintConfig": {
     "extends": "react-app"
