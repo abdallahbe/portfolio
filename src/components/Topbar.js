@@ -25,7 +25,7 @@ const Topbar = ({ sharedData, resumeBasicInfo  }) => {
          <div style={styles.profileContainer}>
             
           <img
-            src="https://mohamedms-1.github.io/portfolio/images/myProfile.png"
+            src="https://abdallahbe.github.io/portfolio/images/myProfile.png"
             alt="Profile"
             style={styles.profileImage}
           />
