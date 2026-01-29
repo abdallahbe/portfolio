@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Bonjour",
-      "description": "👋 Je suis un développeur full-stack passionné et expérimenté, spécialisé dans les technologies Spring Boot, Angular et le développement mobile. Fort d'une solide formation en informatique et d'une passion pour la création de solutions web et mobiles performantes et conviviales, j'ai acquis une expérience significative dans le développement d'applications web modernes et évolutives, ainsi que d'applications mobiles cross-platform.",
+      "description": "👋 Je suis un développeur full-stack passionné et expérimenté, spécialisé dans les technologies .NET, Angular et le développement mobile. Fort d'une solide formation en informatique et d'une passion pour la création de solutions web et mobiles performantes et conviviales, j'ai acquis une expérience significative dans le développement d'applications web modernes et évolutives, ainsi que d'applications mobiles cross-platform.",
       "section_name": {
         "about": "À propos de moi",
         "projects": "Projets",
@@ -83,14 +83,14 @@
     ],
     "experience": [
       {
-        "company": "Smartegy",
+        "company": "Tunav",
         "title": "Développeur Full Stack",
-        "years": "10.2022 - 10.2025",
+        "years": "10.2022 - ",
         "mainTech": [
           "Angular 11/12/14","Spring boot"
         ],
         "technologies": [
-          "Spring boot",
+          ".NET",
           "REST API",
           "RxJS",
           "JavaScript",
@@ -99,9 +99,9 @@
         ]
       },
       {
-        "company": "Groupe adaming",
+        "company": "SagemCom",
         "title": "Développeur Full Stack",
-        "years": "01.2018 - 09.2019",
+        "years": "01.2022 - 09.2023",
         "mainTech": [
           "Angular 7","Spring boot"
         ],
