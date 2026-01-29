@@ -116,36 +116,7 @@ class About extends Component {
               </div>
             </div>
 
-            {/* Bouton de téléchargement */}
-            <div className="col-md-12 mt-4">
-              <button 
-                className={`btn ${isDownloading ? 'btn-warning' : 'btn-success'} btn-lg`}
-                onClick={this.handleDownload}
-                disabled={isDownloading}
-                style={{
-                  padding: "15px 30px",
-                  fontSize: "18px",
-                  borderRadius: "25px"
-                }}
-              >
-                {isDownloading ? (
-                  <>
-                    <span className="spinner-border spinner-border-sm me-2"></span>
-                    Téléchargement...
-                  </>
-                ) : (
-                  <>
-                    📲 TÉLÉCHARGER L'APP
-                  </>
-                )}
-              </button>
-              
-              {downloadCount > 0 && (
-                <p className="mt-2 text-muted">
-                  ✅ {downloadCount} téléchargement(s)
-                </p>
-              )}
-            </div>
+            
           </div>
         </div>
       </section>
