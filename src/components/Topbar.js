@@ -10,7 +10,7 @@ const Topbar = ({ sharedData, resumeBasicInfo  }) => {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
-
+// ddd
   const sectionNames = resumeBasicInfo?.section_name || {};
   const navKeys = ["about", "projects", "skills", "experience"];
  
