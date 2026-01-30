@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import csharpIcon from "@iconify/icons-logos/c-sharp";
 import dotnetIcon from "@iconify/icons-logos/dot-net-icon"; 
+import { dotNet } from "@iconify/icons-logos";
 
 
 class About extends Component {
@@ -73,7 +74,9 @@ class About extends Component {
                     icon={dotnetIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   /> */}
-                  <Icon icon={dotNetIcon} width="50" height="50" />
+                  {/* <Icon icon={dotNetIcon} width="50" height="50" /> */}
+                  <Icon icon={dotNet} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
+
 
                 </span>
               </div>
