@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import dotnetIcon from "@iconify/icons-logos/dotnet";
 import csharpIcon from "@iconify/icons-logos/c-sharp";
-// KK
+import angularIcon from "@iconify/icons-logos/angular-icon";
+
 class About extends Component {
   constructor(props) {
     super(props);
@@ -59,13 +60,25 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
+                  {/* Icône .NET */}
                   <Icon
                     icon={dotnetIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    title=".NET Framework"
                   />
+                  
+                  {/* Icône C# */}
                   <Icon
                     icon={csharpIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    title="C# Programming Language"
+                  />
+                  
+                  {/* Icône Angular */}
+                  <Icon
+                    icon={angularIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    title="Angular Framework"
                   />
                 </span>
               </div>
@@ -106,6 +119,34 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
+                    
+                    {/* Section des compétences */}
+                    <div className="mt-4">
+                      <h5>Technologies maîtrisées :</h5>
+                      <div className="d-flex justify-content-center mt-3">
+                        <div className="text-center mx-3">
+                          <Icon
+                            icon={dotnetIcon}
+                            style={{ fontSize: "300%" }}
+                          />
+                          <p>.NET</p>
+                        </div>
+                        <div className="text-center mx-3">
+                          <Icon
+                            icon={csharpIcon}
+                            style={{ fontSize: "300%" }}
+                          />
+                          <p>C#</p>
+                        </div>
+                        <div className="text-center mx-3">
+                          <Icon
+                            icon={angularIcon}
+                            style={{ fontSize: "300%" }}
+                          />
+                          <p>Angular</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
