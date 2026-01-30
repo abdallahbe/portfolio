@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import dotnetIcon from "@iconify/icons-logos/dotnet";
+import csharpIcon from "@iconify/icons-logos/c-sharp";
 
 class About extends Component {
   constructor(props) {
@@ -43,7 +42,7 @@ class About extends Component {
       var about = this.props.resumeBasicInfo.description;
     }
 
-    // const { isDownloading, downloadCount } = this.state;
+    const { isDownloading, downloadCount } = this.state;
 
     return (
       <section id="about">
@@ -61,15 +60,11 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={dotnetIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
+                    icon={csharpIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
@@ -113,10 +108,34 @@ class About extends Component {
                     {about}
                   </div>
                 </div>
+
+                {/* Bouton de téléchargement APK */}
+                <div className="text-center mt-4">
+                  <button
+                    onClick={this.handleDownload}
+                    className="btn btn-success btn-lg"
+                    disabled={isDownloading}
+                  >
+                    {isDownloading ? (
+                      <>
+                        <span className="spinner-border spinner-border-sm me-2"></span>
+                        Téléchargement en cours...
+                      </>
+                    ) : (
+                      <>
+                        <i className="fas fa-download me-2"></i>
+                        Télécharger l'APK
+                      </>
+                    )}
+                  </button>
+                  {downloadCount > 0 && (
+                    <div className="mt-2 text-muted">
+                      <small>Téléchargé {downloadCount} fois</small>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
-
-            
           </div>
         </div>
       </section>
