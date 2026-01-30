@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import csharpIcon from "@iconify/icons-logos/c-sharp";
-import dotnetIcon from "@iconify/icons-logos/dot-net";
+import dotnetIcon from "@iconify/icons-logos/dot-net-icon"; 
 
 
 class About extends Component {
