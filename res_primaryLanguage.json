@@ -55,9 +55,9 @@
         ]
       },
       {
-        "title": "Patient",
-        "startDate": "Mobile application",
-        "description": "Design and development of an innovative mobile application dedicated to managing both human and animal healthcare. The app enables patients to conveniently order medications online, schedule appointments with healthcare professionals by specialty, and manage their medical follow-ups. It also includes a veterinary module allowing users to book appointments for their pets, providing a complete and centralized experience for the well-being of the whole family.",
+        "title": "WebTrace ",
+        "startDate": "Web application",
+        "description": "It is a comprehensive GPS/GPRS platform composed of multiple modules, compatible with a wide range of GPS/GPRS devices, and integrated with a richly detailed cartographic database. It enables resource management (drivers, vehicles, stocks, transactions), real-time tracking and history review of mobile objects, device and account administration, real-time tank monitoring and control via IoT equipment, as well as data analysis through dashboards and exportable reports.",
         "images": [
           "images/portfolio/adventure/p1.webp",
           "images/portfolio/adventure/p2.webp"

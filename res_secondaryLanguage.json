@@ -57,9 +57,9 @@
         ]
       },
       {
-        "title": "Patient",
-        "startDate": "Application mobile",
-        "description": "Conception et développement d’une application mobile innovante dédiée à la gestion de la santé humaine et animale. Cette application permet aux patients de commander facilement leurs médicaments en ligne, de prendre rendez-vous avec un professionnel de santé selon sa spécialité, et de gérer le suivi de leurs consultations. Elle intègre également un module vétérinaire offrant la possibilité de fixer des rendez-vous pour leurs animaux, garantissant ainsi une expérience complète et centralisée pour le bien-être de toute la famille.",
+        "title": "Webtrace",
+        "startDate": "Application web",
+        "description": "Il s’agit d’une plateforme GPS/GPRS complète, composée de plusieurs modules et compatible avec une large gamme de dispositifs GPS/GPRS, intégrant une base de données cartographique riche. Elle permet la gestion des ressources (conducteurs, véhicules, stocks, transactions), le suivi en temps réel et l’historique des objets mobiles, l’administration des comptes et des équipements, la surveillance et le contrôle des réservoirs via des équipements IoT, ainsi que l’analyse des données à travers des tableaux de bord et des rapports exportables.",
         "images": [
           "images/portfolio/adventure/p1.webp",
           "images/portfolio/adventure/p2.webp"
