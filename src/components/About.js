@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import dotnetIcon from "@iconify/icons-logos/dotnet";
 import csharpIcon from "@iconify/icons-logos/c-sharp";
-
+// KK
 class About extends Component {
   constructor(props) {
     super(props);
