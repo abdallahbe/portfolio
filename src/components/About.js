@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import csharpIcon from "@iconify/icons-logos/react";
+import dotnetIcon from "@iconify/icons-logos/vue";
+
 
 class About extends Component {
   constructor(props) {
