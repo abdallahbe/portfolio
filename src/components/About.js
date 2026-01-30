@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
-import csharpIcon from "@iconify/icons-logos/c-sharp";
-import dotnetIcon from "@iconify/icons-logos/dot-net-icon"; 
-import { dotNet } from "@iconify/icons-logos";
-
+import reactIcon from "@iconify/icons-logos/react";
+import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
   constructor(props) {
@@ -45,7 +43,7 @@ class About extends Component {
       var about = this.props.resumeBasicInfo.description;
     }
 
-    
+    // const { isDownloading, downloadCount } = this.state;
 
     return (
       <section id="about">
@@ -66,18 +64,14 @@ class About extends Component {
                     icon={angularIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
-                  {/* <Icon
-                    icon={csharpIcon}
+                  <Icon
+                    icon={reactIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={dotnetIcon}
+                    icon={vueIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  /> */}
-                  {/* <Icon icon={dotNetIcon} width="50" height="50" /> */}
-                  <Icon icon={dotNet} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
-
-
+                  />
                 </span>
               </div>
             </div>
