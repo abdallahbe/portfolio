@@ -65,14 +65,16 @@ class About extends Component {
                     icon={angularIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
-                  <Icon
+                  {/* <Icon
                     icon={csharpIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={dotnetIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                  /> */}
+                  <Icon icon={dotNetIcon} width="50" height="50" />
+
                 </span>
               </div>
             </div>
