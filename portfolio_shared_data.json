@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Abdallah beji",
-      "titles": [ "Full stack Developer", "Front-end Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "titles": [ "Full stack Developer" ],
       "social": [
         {
           "name": "github",
@@ -29,16 +29,16 @@
           "class": "devicon-python-plain",
           "level": "85"
         },
-        {
-        "name": "Symfony",
-        "class": "devicon-symfony-original",
-        "level": "70"
-        },
-        {
-          "name": "React Native",
-          "class": "devicon-react-original",
-          "level": "80"
-        },
+        // {
+        // "name": "Symfony",
+        // "class": "devicon-symfony-original",
+        // "level": "70"
+        // },
+        // {
+        //   "name": "React Native",
+        //   "class": "devicon-react-original",
+        //   "level": "80"
+        // },
         {
           "name": "Angular",
           "class": "devicon-angularjs-plain",
@@ -54,16 +54,16 @@
           "class": "devicon-javascript-plain",
           "level": "70"
         },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
+        // {
+        //   "name": "Sass",
+        //   "class": "devicon-sass-original",
+        //   "level": "75"
+        // },
+        // {
+        //   "name": "Bootstrap",
+        //   "class": "devicon-bootstrap-plain",
+        //   "level": "85"
+        // },
         {
           "name": "C#",
           "class": "devicon-csharp-plain",
