@@ -19,20 +19,17 @@
   "skills": {
     "icons": [
       {
+        "name": ".NET Core",
+        "class": "devicon-dotnetcore-plain",
+        "level": 70
+      },
+      {
         "name": "Spring Boot",
         "class": "devicon-spring-plain",
         "level": 75
       },
-      {
-        "name": "Python",
-        "class": "devicon-python-plain",
-        "level": 85
-      },
-      {
-        "name": ".NET",
-        "class": "devicon-dotnet-plain",
-        "level": 70
-      },
+     
+      
       {
         "name": "Angular",
         "class": "devicon-angularjs-plain",
