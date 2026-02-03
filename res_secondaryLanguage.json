@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Bonjour",
-      "description": "👋 Je suis un développeur full-stack passionné et expérimenté, spécialisé dans les technologies .NET, Angular et le développement mobile. Fort d'une solide formation en informatique et d'une passion pour la création de solutions web et mobiles performantes et conviviales, j'ai acquis une expérience significative dans le développement d'applications web modernes et évolutives, ainsi que d'applications mobiles cross-platform.",
+      "description": "👋 Je suis un développeur full-stack passionné et expérimenté, spécialisé dans les technologies .NET et Angular. Fort d'une solide formation en informatique et d'une passion pour la création de solutions web performantes et conviviales, j'ai acquis une expérience significative dans le développement d'applications web modernes, robustes et évolutives.",
       "section_name": {
         "about": "À propos de moi",
         "projects": "Projets",
